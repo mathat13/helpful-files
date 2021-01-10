@@ -136,6 +136,7 @@ fi
 # alias stats='history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10'
 alias ..='cd ..'
 alias myip='curl http://ipecho.net/plain; echo'
+alias cclip='xclip -selection clipboard'
 
 # Variables
 
